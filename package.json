@@ -1,5 +1,5 @@
 {
-  "name": "gulp-module-renamer",
+  "name": "gulp-ng-module-renamer",
   "version": "0.0.2",
   "repository": "http://totes-gitlab01.rogers.com/ute/ute-ui",
   "description": "renames angular modules",
