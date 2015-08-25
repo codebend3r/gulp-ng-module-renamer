@@ -1,8 +1,9 @@
-Gulp Module Renamer
+Gulp Angular Module Renamer
 ====================
 
-Uses a regex pattern search and replace any js files with angular.modules('\*') to angular.module('ute.ui.custom') or whatever you want
+> Uses a regex pattern search and replace any js files with angular.modules('\*') to angular.module('ute.ui.custom') or whatever you want
 
+Example
 
     var moduleRenamer = require('gulp-module-renamer');
 

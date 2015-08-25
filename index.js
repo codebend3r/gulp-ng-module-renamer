@@ -1,7 +1,7 @@
 /**
  * Updated by crivas on 08/18/2015
  * Email: chester.rivas@gmail.com
- * Plugin Name: gulp-module-renamer
+ * Plugin Name: gulp-ng-module-renamer
  */
 
 'use strict';
