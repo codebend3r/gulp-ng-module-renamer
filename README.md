@@ -1,9 +1,8 @@
 Gulp Angular Module Renamer
 ====================
+![gulp-ng-module-renamer build status](https://travis-ci.org/crivas/gulp-ng-module-renamer.svg?branch=master)
 
 > Uses a regex pattern search and replace any js files with angular.modules('\*') to angular.module('ute.ui.custom') or whatever you want
-
-![gulp-ng-module-renamer build status](https://travis-ci.org/crivas/gulp-ng-module-renamer.svg?branch=master)
 
 Example
 
