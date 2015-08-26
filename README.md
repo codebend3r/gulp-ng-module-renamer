@@ -3,12 +3,12 @@ Gulp Angular Module Renamer
 
 > Uses a regex pattern search and replace any js files with angular.modules('\*') to angular.module('ute.ui.custom') or whatever you want
 
-![gulp-module-renamer build status](https://travis-ci.org/crivas/gulp-module-renamer.svg?branch=master)
+![gulp-ng-module-renamer build status](https://travis-ci.org/crivas/gulp-ng-module-renamer.svg?branch=master)
 
 Example
 
 ```js
-var moduleRenamer = require('gulp-module-renamer');
+var moduleRenamer = require('gulp-ng-module-renamer');
 
 gulp.task('module-rename', function () {
 
@@ -21,7 +21,7 @@ gulp.task('module-rename', function () {
 
 Example With Options
 ```js
-var moduleRenamer = require('gulp-module-renamer');
+var moduleRenamer = require('gulp-ng-module-renamer');
 
 gulp.task('module-rename', function () {
 
