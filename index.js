@@ -1,5 +1,5 @@
 /**
- * Updated by crivas on 08/18/2015
+ * Updated by crivas on 08/26/2015
  * Email: chester.rivas@gmail.com
  * Plugin Name: gulp-ng-module-renamer
  */
@@ -31,7 +31,7 @@ var moduleRenamer = function (options) {
 
     var newModuleString = 'angular.module(\'' + moduleName + '\'';
 
-    return object.replace(/(?:angular\.module)(?:\(('|")(.*?)('|"))/i, function (str) {
+    return object.replace(/(?:angular\.module)(?:\(('|")(.*?)('|"))/gi, function (str) {
       if (options && options.showLogs) {
         gutil.log('renaming', gutil.colors.cyan(str));
       }
