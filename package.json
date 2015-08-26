@@ -1,8 +1,8 @@
 {
   "name": "gulp-ng-module-renamer",
-  "version": "0.0.2",
-  "repository": "http://totes-gitlab01.rogers.com/ute/ute-ui",
-  "description": "renames angular modules",
+  "version": "0.0.3",
+  "repository": "https://github.com/crivas/gulp-ng-module-renamer",
+  "description": "Uses a regex pattern search and replace any js files with angular.modules('*') to angular.module('ute.ui.custom') or whatever you want",
   "main": "index.js",
   "author": "Chester Rivas",
   "license": "MIT",
