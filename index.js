@@ -1,7 +1,7 @@
 /**
- * Updated by crivas on 08/26/2015
+ * Updated by crivas on 09/17/2015
  * Email: chester.rivas@gmail.com
- * Plugin Name: gulp-ng-module-renamer
+ * Plugin Name: gulp-sass-packager
  */
 
 'use strict';

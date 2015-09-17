@@ -1,6 +1,6 @@
 {
   "name": "gulp-ng-module-renamer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": "https://github.com/crivas/gulp-ng-module-renamer",
   "description": "Uses a regex pattern search and replace any js files with angular.modules('*') to angular.module('ute.ui.custom') or whatever you want",
   "main": "index.js",
@@ -11,5 +11,9 @@
     "gulp-util": "^3.0.6",
     "jsonfile": "^2.2.1",
     "underscore-node": "^0.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
   }
 }
